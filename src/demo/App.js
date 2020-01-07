@@ -1,12 +1,8 @@
 import React from 'react';
-import Example from '../lib';
-import { SecondExample } from '../lib';
+import Game from '../lib';
 
 const App = () => (
-  <div>
-    <Example />
-    <SecondExample />
-  </div>
+  <Game />
 );
 
 export default App;

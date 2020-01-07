@@ -1,8 +1,40 @@
-This project was bootstrapped with [Create React Library](https://github.com/dimimikadze/create-react-library).
+# react-chrome-dino
 
-All library files are located inside **src/lib** folder.
+## Usage:
 
-Inside **src/demo** folder, you can test your library while developing.
+Demo: https://mhasbini.com/miscs/react-chrome-dino-demo/index.html
+
+Install:
+
+```
+yarn add react-chrome-dino
+```
+
+```js
+import React from 'react';
+import React from 'react';
+import ChromeDinoGame from 'react-chrome-dino';
+
+const App = () => (
+  <ChromeDinoGame />
+);
+
+export default App;
+```
+
+Check [`src/demo`](src/demo) for a usage example.
+
+## License
+
+This library is licensed under MIT.
+
+The game javascript & css is licensed under BSD as follow:
+
+```
+// Copyright (c) 2014 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file here: https://cs.chromium.org/chromium/src/LICENSE. 
+```
 
 ## Available Scripts
 
@@ -24,15 +56,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### `npm publish`
 
 Publishes the library to NPM.
-
-## Typescript
-
-[Adding Typescript support](https://gist.github.com/DimiMikadze/f25e1c5c70fa003953afd40fa9042517)
-
-## Troubleshooting
-
-### Usage of other libraries within your library
-
-- Add the library as a peer dependency in package.json (effectively requiring the calling project to provide this dependency)
-- Add the library as a dev dependency in package.json (effectively allowing this library to successfully build without complaining about not having this dependency)
-- Add the library to the externals config in your webpack.config file(s). By default, only react and react-dom are there, meaning that those are the only two libraries that you can use within your new shared library.

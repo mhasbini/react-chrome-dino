@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "dependencies": {},
+  "homepage" : "https://mhasbini.com/miscs/react-chrome-dino-demo",
   "devDependencies": {
     "@babel/core": "7.6.0",
     "@svgr/webpack": "4.3.2",
