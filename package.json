@@ -1,6 +1,6 @@
 {
   "name": "react-chrome-dino",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
