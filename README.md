@@ -2,6 +2,8 @@
 
 ## Usage:
 
+![](screenshots/screenshot.png)
+
 Demo: https://mhasbini.com/miscs/react-chrome-dino-demo/index.html
 
 Install:
