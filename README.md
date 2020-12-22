@@ -14,7 +14,6 @@ yarn add react-chrome-dino
 
 ```js
 import React from 'react';
-import React from 'react';
 import ChromeDinoGame from 'react-chrome-dino';
 
 const App = () => (
